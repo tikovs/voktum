@@ -10,4 +10,8 @@
     .navbar>.container-fluid .navbar-brand-centered {
         margin-left: -80px;
     }
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+     }
 }

@@ -2,9 +2,6 @@
   .mt-100 {
     margin-top: 100px;
   }
-
-  
-
   .card .card-body {
     padding: 1rem 1rem;
   }
@@ -48,6 +45,7 @@
   body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
+    font-family: 'Montserrat', sans-serif !important;
     margin: 0;
     padding: 0;
   }
@@ -198,4 +196,3 @@
 .card img {
   max-height: 100%;
 }
-

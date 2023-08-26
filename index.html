@@ -1,379 +1,406 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <!-- Mobile Specific Meta -->
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    <meta charset="utf-8" />
-    <title>Offline Bootstrap</title>
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/default.css" />
-    <link rel="stylesheet" href="./css/font-awesome.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="./js/bootstrap.js"></script>
-  </head>
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <title>Offline Bootstrap</title>
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/default.css" />
+  <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="./js/bootstrap.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-813438601"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body>
-    <main>
-      <nav class="navbar navbar-dark bg-dark py-3" aria-label="Dark offcanvas navbar">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
-            aria-controls="offcanvasNavbarDark">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    gtag('config', 'AW-813438601');
+  </script>
+</head>
 
-          <div class="navbar-brand navbar-brand-centered">
-            <a class="navbar-brand" href="#">
-              <img src="./img/VOKTUM-02.webp" alt="" width="140" height="70" class="img-fluid" />
-            </a>
-          </div>
+<body>
+  <main>
+    <nav class="navbar navbar-dark bg-dark py-3" aria-label="Dark offcanvas navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
+          aria-controls="offcanvasNavbarDark">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
-            aria-labelledby="offcanvasNavbarDarkLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">
-                Menu
-              </h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#produtos">Produtos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#poltronas">Poltronas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#designers">Designers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contato">Contato</a>
-                </li>
-
-            </div>
-          </div>
+        <div class="navbar-brand navbar-brand-centered">
+          <a class="navbar-brand" href="#">
+            <img src="./img/VOKTUM-02.webp" alt="" width="140" height="70" class="img-fluid" />
+          </a>
         </div>
-      </nav>
 
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
+          aria-labelledby="offcanvasNavbarDarkLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">
+              Menu
+            </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#poltronas">Poltronas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#designers">Designers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
 
-      <div class="row nopadding">
-        <div class="col-12 col-md-6 nopadding">
-          <img src="./img/laguna-aciole.webp" class="img-fluid" alt="Full Size Background Image" />
-        </div>
-        <div class="col-12 col-md-6 nopadding">
-          <img src="./img/acione-laguna.webp" class="img-fluid" alt="Full Size Background Image" />
+          </div>
         </div>
       </div>
+    </nav>
 
 
-      <section id="produtos">
-        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/ZAHA.webp" class="d-block  img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Cama Zaha</h5>
-                  <p class="card-text">Inspirada nas obras da arquiteta Zaha Hadid, com curvas e ângulos agudos, a cama
-                    Zaha é irreverente e marcante.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/DOLOMITAS.webp" class="d-block  img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Mesa Dolomitas</h5>
-                  <p class="card-text">Inspirada na linda região das Dolomitas, uma cadeia de montanhas rochosas ao
-                    norte da Itália, nasce a Mesa de Jantar Dolomitas como uma peça de design icônico.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/RUY.webp" class="d-block img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Sofá Ruy</h5>
-                  <p class="card-text">Volumetria importante, traços orgânicos, leves e contemporâneos são
-                    características marcantes das obras do ícone Ruy Ohtake e estão impressas em cada traço do sofá Ruy
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/BOWED.webp" class="d-block  img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Sofá Bowed</h5>
-                  <p class="card-text">Forma orgânica e suavidade são os traços marcantes do sofá Bowed. Trazendo linhas
-                    curvas em seu design, a peça une conforto e modernidade através do desenho icônico.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/CONNECT.webp" class="d-block  img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Sofá Connect</h5>
-                  <p class="card-text">O design do sofá Connect tem uma elegância discreta, graças à combinação de seu
-                    fluxo suave, formas e linhas rigorosas.</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card">
-                <div class="img-wrapper"><img src="./img/LUX.webp" class="d-block  img-fluid" alt="..."> </div>
-                <div class="card-body">
-                  <h5 class="card-title">Sofá Lux</h5>
-                  <p class="card-text">Conforto, praticidade e design contemporâneo: tudo o que um estofado modulado
-                    reclinável precisa. E para o conforto não acabar nunca, ainda tem a opção de braço central com mesa
-                    de apoio elevatória, iluminação led e carregamento por indução, tudo de forma eletrônica.</p>
-                </div>
+    <div class="row nopadding">
+      <div class="col-12 col-md-6 nopadding">
+        <img src="./img/laguna-aciole.webp" class="img-fluid" alt="Full Size Background Image" />
+      </div>
+      <div class="col-12 col-md-6 nopadding">
+        <img src="./img/acione-laguna.webp" class="img-fluid" alt="Full Size Background Image" />
+      </div>
+    </div>
+
+
+    <section id="produtos">
+      <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/ZAHA.webp" class="d-block  img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Cama Zaha</h5>
+                <p class="card-text">Inspirada nas obras da arquiteta Zaha Hadid, com curvas e ângulos agudos, a cama
+                  Zaha é irreverente e marcante.</p>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="false"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-
-      <section id="poltronas">
-        <div class="col-12 mb-5 d-lg-none nopadding">
-          <div class="row nopadding">
-            <div class="text-bg-dark  pt-3  text-center overflow-hidden col-12">
-              <div class="my-3 py-3">
-                <h2 class="display-5">Poltrona Olga</h2>
-                <p class="lead">Traços únicos e modernos e um design irreverente para projetos ousados: essa é a Olga.
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/DOLOMITAS.webp" class="d-block  img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Mesa Dolomitas</h5>
+                <p class="card-text">Inspirada na linda região das Dolomitas, uma cadeia de montanhas rochosas ao
+                  norte da Itália, nasce a Mesa de Jantar Dolomitas como uma peça de design icônico.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/RUY.webp" class="d-block img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Sofá Ruy</h5>
+                <p class="card-text">Volumetria importante, traços orgânicos, leves e contemporâneos são
+                  características marcantes das obras do ícone Ruy Ohtake e estão impressas em cada traço do sofá Ruy
                 </p>
               </div>
-              <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
-                <img src="./img/OLGA.webp" style="border-radius: 21px 21px 0 0" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/BOWED.webp" class="d-block  img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Sofá Bowed</h5>
+                <p class="card-text">Forma orgânica e suavidade são os traços marcantes do sofá Bowed. Trazendo linhas
+                  curvas em seu design, a peça une conforto e modernidade através do desenho icônico.</p>
               </div>
             </div>
-            <div class="bg-light  pt-3 text-center overflow-hidden col-12">
-              <div class="my-3 p-3">
-                <h2 class="display-5">Poltrona Lírio</h2>
-                <p class="lead">Uma releitura da flor que lhe dá nome, a poltrona Lírio junta as formas orgânicas com o
-                  conforto de um abraço duplo que só a natureza pode proporcionar.</p>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/CONNECT.webp" class="d-block  img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Sofá Connect</h5>
+                <p class="card-text">O design do sofá Connect tem uma elegância discreta, graças à combinação de seu
+                  fluxo suave, formas e linhas rigorosas.</p>
               </div>
-              <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
-                <img style="border-radius: 21px 21px 0 0" src="./img/LIRIO" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="img-wrapper"><img src="./img/LUX.webp" class="d-block  img-fluid" alt="..."> </div>
+              <div class="card-body">
+                <h5 class="card-title">Sofá Lux</h5>
+                <p class="card-text">Conforto, praticidade e design contemporâneo: tudo o que um estofado modulado
+                  reclinável precisa. E para o conforto não acabar nunca, ainda tem a opção de braço central com mesa
+                  de apoio elevatória, iluminação led e carregamento por indução, tudo de forma eletrônica.</p>
               </div>
             </div>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="false"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-
-        <div class="col-12 mb-5 nopadding d-none d-lg-block">
-          <div class="row nopadding">
-            <div class="text-bg-dark  pt-3  text-center overflow-hidden col">
-              <div class="my-3 py-3">
-                <h2 class="display-5">Poltrona Olga</h2>
-                <p class="lead">Traços únicos e modernos e um design irreverente para projetos ousados: essa é a Olga.
-                </p>
-              </div>
-              <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
-                <img src="./img/OLGA.webp" style="border-radius: 21px 21px 0 0" alt="" class="img-fluid" />
-              </div>
-            </div>
-            <div class="bg-light  pt-3 text-center overflow-hidden col">
-              <div class="my-3 p-3">
-                <h2 class="display-5">Poltrona Lírio</h2>
-                <p class="lead">Uma releitura da flor que lhe dá nome, a poltrona Lírio junta as formas orgânicas com o
-                  conforto de um abraço duplo que só a natureza pode proporcionar.</p>
-              </div>
-              <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
-                <img style="border-radius: 21px 21px 0 0" src="./img/LIRIO.webp" alt="" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="designers">
-        <!-- Three columns of text below the carousel -->
-        <div class="col-12 text-center bg-light d-lg-none mt-5 nopadding ">
-          <div class="row nopadding">
-            <div class="col-12 mt-5 mb-5">
-              <img style="border-radius: 21px 21px 0 0" src="./img/jayme.webp" alt=""
-                class="img-fluid bd-placeholder-img rounded-circle shadow img-fluid" width="140" height="140" />
-              <h2 class="fw-normal">Jayme Bernado</h2>
-              <p>
-                Formado em Arquitetura e Urbanismo pela Universidade Federal do Paraná, o arquiteto se destaca pelo
-                traço contemporâneo.
-                Há 30 anos o arquiteto se dedica a projetos residenciais e comerciais de alto padrão. Atualmente
-                desenvolve linha de mobiliário com a assinatura Jayme Bernardo Design.
-                Sua trajetória inclui trabalhos nas áreas de hotelaria, restaurantes e casas noturnas, além de projetos
-                no exterior (Nova York, Miami e Angola)
+    <section id="poltronas">
+      <div class="col-12 mb-5 d-lg-none nopadding">
+        <div class="row nopadding">
+          <div class="text-bg-dark  pt-3  text-center overflow-hidden col-12">
+            <div class="my-3 py-3">
+              <h2 class="display-5">Poltrona Olga</h2>
+              <p class="lead">Traços únicos e modernos e um design irreverente para projetos ousados: essa é a Olga.
               </p>
             </div>
-            <!-- /.col-lg-4 -->
+            <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
+              <img src="./img/OLGA.webp" style="border-radius: 21px 21px 0 0" alt="" class="img-fluid" />
+            </div>
           </div>
-          <!-- /.row -->
-        </div>
-
-
-
-        <div class="col-12 text-center bg-light d-none d-lg-block nopadding">
-          <div class="row nopadding">
-            <div class="col-4 mt-5 mb-5">
-              <img style="border-radius: 21px 21px 0 0" src="./img/jayme.webp" alt=""
-                class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
-              <h2 class="fw-normal">Jayme Bernado</h2>
-              <p>
-                Formado em Arquitetura e Urbanismo pela Universidade Federal do Paraná, o arquiteto se destaca pelo
-                traço contemporâneo.
-                Há 30 anos o arquiteto se dedica a projetos residenciais e comerciais de alto padrão. Atualmente
-                desenvolve linha de mobiliário com a assinatura Jayme Bernardo Design.
-                Sua trajetória inclui trabalhos nas áreas de hotelaria, restaurantes e casas noturnas, além de projetos
-                no exterior (Nova York, Miami e Angola)
-              </p>
+          <div class="bg-light  pt-3 text-center overflow-hidden col-12">
+            <div class="my-3 p-3">
+              <h2 class="display-5">Poltrona Lírio</h2>
+              <p class="lead">Uma releitura da flor que lhe dá nome, a poltrona Lírio junta as formas orgânicas com o
+                conforto de um abraço duplo que só a natureza pode proporcionar.</p>
             </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-4 mt-5 ">
-              <img style="border-radius: 21px 21px 0 0" src="./img/marcelo.webp" alt=""
-                class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
-              <h2 class="fw-normal">Marcelo Ligieri</h2>
-              <p>
-                O mineiro Marcelo Ligieri é arquiteto e urbanista, com grande experiência em arquitetura comercial,
-                residencial e industrial, além do design de produtos.
-                Foi professor da UEMG (Universidade Estadual de Minas Gerais) de 1997 a 2004. Desde 1999 dedica-se
-                exclusivamente ao design de móveis, gerindo desde o processo de desenvolvimento até o lançamento.
-                Seu trabalho une com sucesso os processos industriais e as tendências internacionais do mercado de
-                mobiliário de alto padrão.
-              </p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-4 mt-5 ">
-              <img style="border-radius: 21px 21px 0 0" src="./img/aciole.webp" alt=""
-                class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
-              <h2 class="fw-normal">Aciole Félix</h2>
-              <p>
-                Aciole Félix é Brasiliense formado em Desenho Industrial pela UnB e mestre em Design pelo Politécnico de
-                Milão, Itália.
-                Seu trabalho traz uma enorme influência da arquitetura moderna de Brasília sua cidade natal. O uso de
-                diversos materiais e técnicas de fabricação é uma herança do seu trabalho como designer de produto.
-              </p>
-            </div>
-            <!-- /.col-lg-4 -->
-          </div>
-          <!-- /.row -->
-        </div>
-      </section>
-
-      <section id="contato">
-        <div class="col-12 bg-dark d-flex justify-content-center mt-3 nopadding">
-          <div class="row nopadding">
-            <div class="col-md-6 mt-5 mb-5">
-              <div class="card">
-                <div class="card-body text-center">
-
-                  <h4>Contato</h4>
-                  <p>Seu contato é muito importante para nós! Estamos prontos para te atender, é só clicar aqui:</p>
-
-                  <a class="btn btn-out btn-square"
-                    href="https://api.whatsapp.com/send?phone=5531999085528&text=Ol%C3%A1,%20Estou%20vindo%20do%20site!"
-                    target="_blank" role="button"> Envie mensagem para o whatsapp
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                      class="bi bi-whatsapp mb-1" viewBox="0 0 16 16">
-                      <path
-                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
+            <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
+              <img style="border-radius: 21px 21px 0 0" src="./img/LIRIO" alt="" class="img-fluid" />
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
 
-      <div class="container-fluid text-center d-lg-none">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <a href="/"
-            class="col-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="./img/VOKTUM-01.webp" alt="" width="140" height="70" class="img-fluid" />
-          </a>
+      <div class="col-12 mb-5 nopadding d-none d-lg-block">
+        <div class="row nopadding">
+          <div class="text-bg-dark  pt-3  text-center overflow-hidden col">
+            <div class="my-3 py-3">
+              <h2 class="display-5">Poltrona Olga</h2>
+              <p class="lead">Traços únicos e modernos e um design irreverente para projetos ousados: essa é a Olga.
+              </p>
+            </div>
+            <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
+              <img src="./img/OLGA.webp" style="border-radius: 21px 21px 0 0" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="bg-light  pt-3 text-center overflow-hidden col">
+            <div class="my-3 p-3">
+              <h2 class="display-5">Poltrona Lírio</h2>
+              <p class="lead">Uma releitura da flor que lhe dá nome, a poltrona Lírio junta as formas orgânicas com o
+                conforto de um abraço duplo que só a natureza pode proporcionar.</p>
+            </div>
+            <div class="bg-light shadow mx-auto" style="width: 80%; height: 100%; border-radius: 21px 21px 0 0">
+              <img style="border-radius: 21px 21px 0 0" src="./img/LIRIO.webp" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <ul class="nav col-12 justify-content-center">
-            <li class="nav-item">
-              <a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a href="#poltronas" class="nav-link px-2 text-body-secondary">Poltronas</a>
-            </li>
-            <li class="nav-item">
-              <a href="#designers" class="nav-link px-2 text-body-secondary">Designers</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contato" class="nav-link px-2 text-body-secondary">Contato</a>
-            </li>
-          </ul>
-        </footer>
+    <section id="designers">
+      <!-- Three columns of text below the carousel -->
+      <div class="col-12 text-center bg-light d-lg-none mt-5 nopadding ">
+        <div class="row nopadding">
+          <div class="col-12 mt-5 mb-5">
+            <img style="border-radius: 21px 21px 0 0" src="./img/jayme.webp" alt=""
+              class="img-fluid bd-placeholder-img rounded-circle shadow img-fluid" width="140" height="140" />
+            <h2 class="fw-normal">Jayme Bernado</h2>
+            <p>
+              Formado em Arquitetura e Urbanismo pela Universidade Federal do Paraná, o arquiteto se destaca pelo
+              traço contemporâneo.
+              Há 30 anos o arquiteto se dedica a projetos residenciais e comerciais de alto padrão. Atualmente
+              desenvolve linha de mobiliário com a assinatura Jayme Bernardo Design.
+              Sua trajetória inclui trabalhos nas áreas de hotelaria, restaurantes e casas noturnas, além de projetos
+              no exterior (Nova York, Miami e Angola)
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
       </div>
 
 
 
-      <div class="container-fluid text-center d-none d-lg-block">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p class="col-md-4  mb-0 text-body-secondary">
-            &copy; 2023 Voktum - Todos os direitos reservados
-          </p>
-
-          <a href="/"
-            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="./img/VOKTUM-01.webp" alt="" width="140" height="70" class="img-fluid" />
-          </a>
-
-          <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item">
-              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a href="#poltronas" class="nav-link px-2 text-body-secondary">Poltronas</a>
-            </li>
-            <li class="nav-item">
-              <a href="#designers" class="nav-link px-2 text-body-secondary">Designers</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contato" class="nav-link px-2 text-body-secondary">Contato</a>
-            </li>
-          </ul>
-        </footer>
+      <div class="col-12 text-center bg-light d-none d-lg-block nopadding">
+        <div class="row nopadding">
+          <div class="col-4 mt-5 mb-5">
+            <img style="border-radius: 21px 21px 0 0" src="./img/jayme.webp" alt=""
+              class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
+            <h2 class="fw-normal">Jayme Bernado</h2>
+            <p>
+              Formado em Arquitetura e Urbanismo pela Universidade Federal do Paraná, o arquiteto se destaca pelo
+              traço contemporâneo.
+              Há 30 anos o arquiteto se dedica a projetos residenciais e comerciais de alto padrão. Atualmente
+              desenvolve linha de mobiliário com a assinatura Jayme Bernardo Design.
+              Sua trajetória inclui trabalhos nas áreas de hotelaria, restaurantes e casas noturnas, além de projetos
+              no exterior (Nova York, Miami e Angola)
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-4 mt-5 ">
+            <img style="border-radius: 21px 21px 0 0" src="./img/marcelo.webp" alt=""
+              class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
+            <h2 class="fw-normal">Marcelo Ligieri</h2>
+            <p>
+              O mineiro Marcelo Ligieri é arquiteto e urbanista, com grande experiência em arquitetura comercial,
+              residencial e industrial, além do design de produtos.
+              Foi professor da UEMG (Universidade Estadual de Minas Gerais) de 1997 a 2004. Desde 1999 dedica-se
+              exclusivamente ao design de móveis, gerindo desde o processo de desenvolvimento até o lançamento.
+              Seu trabalho une com sucesso os processos industriais e as tendências internacionais do mercado de
+              mobiliário de alto padrão.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-4 mt-5 ">
+            <img style="border-radius: 21px 21px 0 0" src="./img/aciole.webp" alt=""
+              class="img-fluid bd-placeholder-img rounded-circle shadow" width="140" height="140" />
+            <h2 class="fw-normal">Aciole Félix</h2>
+            <p>
+              Aciole Félix é Brasiliense formado em Desenho Industrial pela UnB e mestre em Design pelo Politécnico de
+              Milão, Itália.
+              Seu trabalho traz uma enorme influência da arquitetura moderna de Brasília sua cidade natal. O uso de
+              diversos materiais e técnicas de fabricação é uma herança do seu trabalho como designer de produto.
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
       </div>
+    </section>
 
-      <!-- end whatsapp-->
-      <div class="box_whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=5531999085528&text=Ol%C3%A1,%20Estou%20vindo%20do%20site!">
-          <i class="fa fa-whatsapp icon_whatsapp"></i>
+    <section id="contato">
+      <div class="col-12 bg-dark d-flex justify-content-center mt-3 nopadding">
+        <div class="row nopadding">
+          <div class="col-md-6 mt-5 mb-5">
+            <div class="card">
+              <div class="card-body text-center">
+
+                <h4>Contato</h4>
+                <p>Seu contato é muito importante para nós! Estamos prontos para te atender, é só clicar aqui:</p>
+
+                <a class="btn btn-out btn-square" onclick="gtag_report_conversion();"
+                  href="https://api.whatsapp.com/send?phone=5531999085528&text=Ol%C3%A1,%20Estou%20vindo%20do%20site!"
+                  target="_blank" role="button"> Envie mensagem para o whatsapp
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-whatsapp mb-1" viewBox="0 0 16 16">
+                    <path
+                      d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="container-fluid text-center d-lg-none">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <a href="/"
+          class="col-12 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./img/VOKTUM-01.webp" alt="" width="140" height="70" class="img-fluid" />
         </a>
-      </div>
 
-    </main>
+        <ul class="nav col-12 justify-content-center">
+          <li class="nav-item">
+            <a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#poltronas" class="nav-link px-2 text-body-secondary">Poltronas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#designers" class="nav-link px-2 text-body-secondary">Designers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link px-2 text-body-secondary">Contato</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="index.js"></script>
-  </body>
+
+
+    <div class="container-fluid text-center d-none d-lg-block">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4  mb-0 text-body-secondary">
+          &copy; 2023 Voktum - Todos os direitos reservados
+        </p>
+
+        <a href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./img/VOKTUM-01.webp" alt="" width="140" height="70" class="img-fluid" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#produtos" class="nav-link px-2 text-body-secondary">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#poltronas" class="nav-link px-2 text-body-secondary">Poltronas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#designers" class="nav-link px-2 text-body-secondary">Designers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link px-2 text-body-secondary">Contato</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- end whatsapp-->
+    <div class="box_whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=5531999085528&text=Ol%C3%A1,%20Estou%20vindo%20do%20site!"
+        onclick="gtag_report_conversion();" target="_blank">
+        <i class="fa fa-whatsapp icon_whatsapp"></i>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Event snippet for CONTATOS - CLIQUE NO BOTÃO conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-813438601/r5zFCLmfrdcYEImt8IMD',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
 
 </html>

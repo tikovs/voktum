@@ -171,6 +171,11 @@
       flex: 0 0 60%;
       display: block;
     }
+
+    .card-contact{
+      height: 220px !important;
+    }
+
     .card {
       position: relative;
       display: flex;

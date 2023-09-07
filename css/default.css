@@ -131,6 +131,10 @@
 }
 
 @media (min-width: 767px) {
+  .space-button-file {
+    margin-left: 10px;
+  }
+
   .carousel-item {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -164,6 +168,10 @@
   }
 }
   @media (max-width: 767px) {
+    .space-button-file {
+      margin-top: 10px;
+    }
+
     .carousel-item {
       margin-top: 10px;
       margin-bottom: 10px;
@@ -180,7 +188,7 @@
       position: relative;
       display: flex;
       width: 100%;
-      height: 480px;
+      height: 550px;
       flex-direction: column;
       min-width: 0;
       word-wrap: break-word;
@@ -204,4 +212,9 @@
 
 .card img {
   max-height: 90%;
+}
+
+
+.button-pdf {
+  margin-right: 2px;
 }
